@@ -35,6 +35,24 @@ namespace GroupProjectt
                 Console.WriteLine("Wrong")
             }
             
+            
         }
+            public void question3()
+            {
+                int answer;
+                string temp;
+                Console.WriteLine("Whats is 5 * 4 =?");
+                temp = Console.ReadLine();
+                answer = Convert.ToInt32(temp);
+                if (answer == 20)
+                {
+                    Console.WriteLine("Correct!")
+                }
+                else
+                {
+                 Console.WriteLine("Wrong")
+                }
+
+            }
     }
 }
