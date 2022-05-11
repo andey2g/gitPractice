@@ -4,9 +4,21 @@ namespace GroupProjectt
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello World!");
+            int answer;
+            string temp;
+            Console.WriteLine("Whats 2 + 3?");
+            temp = Console.ReadLine();
+            answer = Convert.ToInt32(temp);
+            if (answer == 5)
+            {
+                Console.WriteLine("Correct!")
+            }
+            else
+            {
+                Console.WriteLine("Wrong")
+            }
         }
     }
 }
