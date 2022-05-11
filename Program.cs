@@ -18,7 +18,23 @@ namespace GroupProjectt
             else
             {
                 Console.WriteLine("Wrong")
+         
+              } public void question2()
+            {
+                 int answer;
+            string temp;
+            Console.WriteLine("Whats 5 + 3?");
+            temp = Console.ReadLine();
+            answer = Convert.ToInt32(temp);
+            if (answer == 8)
+            {
+                Console.WriteLine("Correct!")
             }
+            else
+            {
+                Console.WriteLine("Wrong")
+            }
+            
         }
     }
 }
